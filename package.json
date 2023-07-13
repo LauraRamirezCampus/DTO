@@ -1,0 +1,25 @@
+{
+  "name": "dto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "tsc": "tsc -w",
+    "dev": "nodemon --quiet app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "class-transformer": "0.5.1",
+    "metadata": "0.1.0",
+    "nodemon": "3.0.1",
+    "typescript": "5.1.6"
+  },
+  "dependencies": {
+    "dotenv": "16.3.1",
+    "express": "4.18.2",
+    "reflect-metadata": "^0.1.13"
+  }
+}
